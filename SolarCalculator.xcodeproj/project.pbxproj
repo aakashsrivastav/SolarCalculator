@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C6770A210C343400BCBB27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67709210C343400BCBB27 /* AppDelegate.swift */; };
+		18C6770C210C343400BCBB27 /* SolarCalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6770B210C343400BCBB27 /* SolarCalculatorVC.swift */; };
+		18C6770F210C343400BCBB27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6770D210C343400BCBB27 /* Main.storyboard */; };
+		18C67712210C343400BCBB27 /* SolarCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18C67710210C343400BCBB27 /* SolarCalculator.xcdatamodeld */; };
+		18C67714210C343400BCBB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C67713210C343400BCBB27 /* Assets.xcassets */; };
+		18C67717210C343400BCBB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C67715210C343400BCBB27 /* LaunchScreen.storyboard */; };
+		18C67721210C405D00BCBB27 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6771F210C405D00BCBB27 /* Extensions.swift */; };
+		18C67722210C405D00BCBB27 /* SunCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67720210C405D00BCBB27 /* SunCalc.swift */; };
+		18C67724210C407F00BCBB27 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67723210C407F00BCBB27 /* BaseVC.swift */; };
+		18C67729210C525800BCBB27 /* GooglePlacesSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67727210C525800BCBB27 /* GooglePlacesSearchController.swift */; };
+		18C6772B210C536500BCBB27 /* BookmarkedPlacesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6772A210C536500BCBB27 /* BookmarkedPlacesTVC.swift */; };
+		18C6772D210C58F500BCBB27 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6772C210C58F500BCBB27 /* APIKeys.swift */; };
+		18C6772F210C608A00BCBB27 /* BinaryIntegerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6772E210C608A00BCBB27 /* BinaryIntegerExtension.swift */; };
+		18C67731210C622700BCBB27 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C67730210C622700BCBB27 /* Localizable.strings */; };
+		18C67734210C625500BCBB27 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67733210C625500BCBB27 /* StringConstants.swift */; };
+		18C67737210C627800BCBB27 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67736210C627800BCBB27 /* StringExtension.swift */; };
+		18C67739210C6BBC00BCBB27 /* ChooseDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67738210C6BBC00BCBB27 /* ChooseDateVC.swift */; };
+		18C6773D210C944200BCBB27 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6773C210C944200BCBB27 /* Utilities.swift */; };
+		18C67740210C953200BCBB27 /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6773F210C953200BCBB27 /* AppStoryboards.swift */; };
+		18C67742210C95BA00BCBB27 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67741210C95BA00BCBB27 /* UIViewControllerExtension.swift */; };
+		18C67744210C98FF00BCBB27 /* MapViewWithZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67743210C98FF00BCBB27 /* MapViewWithZoom.swift */; };
+		18C67746210CC2BE00BCBB27 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67745210CC2BE00BCBB27 /* DateExtension.swift */; };
+		18C67748210CD8D400BCBB27 /* Locations+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C67747210CD8D400BCBB27 /* Locations+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C67706210C343400BCBB27 /* SolarCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C67709210C343400BCBB27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C6770B210C343400BCBB27 /* SolarCalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarCalculatorVC.swift; sourceTree = "<group>"; };
+		18C6770E210C343400BCBB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C67711210C343400BCBB27 /* SolarCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SolarCalculator.xcdatamodel; sourceTree = "<group>"; };
+		18C67713210C343400BCBB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C67716210C343400BCBB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C67718210C343400BCBB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C6771F210C405D00BCBB27 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		18C67720210C405D00BCBB27 /* SunCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunCalc.swift; sourceTree = "<group>"; };
+		18C67723210C407F00BCBB27 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		18C67727210C525800BCBB27 /* GooglePlacesSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesSearchController.swift; sourceTree = "<group>"; };
+		18C6772A210C536500BCBB27 /* BookmarkedPlacesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedPlacesTVC.swift; sourceTree = "<group>"; };
+		18C6772C210C58F500BCBB27 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		18C6772E210C608A00BCBB27 /* BinaryIntegerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryIntegerExtension.swift; sourceTree = "<group>"; };
+		18C67730210C622700BCBB27 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		18C67733210C625500BCBB27 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		18C67736210C627800BCBB27 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		18C67738210C6BBC00BCBB27 /* ChooseDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDateVC.swift; sourceTree = "<group>"; };
+		18C6773C210C944200BCBB27 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		18C6773F210C953200BCBB27 /* AppStoryboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
+		18C67741210C95BA00BCBB27 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		18C67743210C98FF00BCBB27 /* MapViewWithZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewWithZoom.swift; sourceTree = "<group>"; };
+		18C67745210CC2BE00BCBB27 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		18C67747210CD8D400BCBB27 /* Locations+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locations+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C67703210C343400BCBB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C676FD210C343400BCBB27 = {
+			isa = PBXGroup;
+			children = (
+				18C67708210C343400BCBB27 /* SolarCalculator */,
+				18C67707210C343400BCBB27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C67707210C343400BCBB27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C67706210C343400BCBB27 /* SolarCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C67708210C343400BCBB27 /* SolarCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				18C67749210CD8DA00BCBB27 /* CoreDataModels */,
+				18C6771E210C405D00BCBB27 /* SunCalc */,
+				18C67725210C525800BCBB27 /* GooglePlacesSearchController */,
+				18C67709210C343400BCBB27 /* AppDelegate.swift */,
+				18C67723210C407F00BCBB27 /* BaseVC.swift */,
+				18C6770B210C343400BCBB27 /* SolarCalculatorVC.swift */,
+				18C6772A210C536500BCBB27 /* BookmarkedPlacesTVC.swift */,
+				18C6770D210C343400BCBB27 /* Main.storyboard */,
+				18C67713210C343400BCBB27 /* Assets.xcassets */,
+				18C67715210C343400BCBB27 /* LaunchScreen.storyboard */,
+				18C67718210C343400BCBB27 /* Info.plist */,
+				18C67710210C343400BCBB27 /* SolarCalculator.xcdatamodeld */,
+				18C6772C210C58F500BCBB27 /* APIKeys.swift */,
+				18C67735210C625E00BCBB27 /* Extensions */,
+				18C67732210C623300BCBB27 /* Localization */,
+				18C67738210C6BBC00BCBB27 /* ChooseDateVC.swift */,
+				18C6773E210C950900BCBB27 /* Helpers */,
+			);
+			path = SolarCalculator;
+			sourceTree = "<group>";
+		};
+		18C6771E210C405D00BCBB27 /* SunCalc */ = {
+			isa = PBXGroup;
+			children = (
+				18C6771F210C405D00BCBB27 /* Extensions.swift */,
+				18C67720210C405D00BCBB27 /* SunCalc.swift */,
+			);
+			path = SunCalc;
+			sourceTree = "<group>";
+		};
+		18C67725210C525800BCBB27 /* GooglePlacesSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				18C67727210C525800BCBB27 /* GooglePlacesSearchController.swift */,
+			);
+			path = GooglePlacesSearchController;
+			sourceTree = "<group>";
+		};
+		18C67732210C623300BCBB27 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				18C67730210C622700BCBB27 /* Localizable.strings */,
+				18C67733210C625500BCBB27 /* StringConstants.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		18C67735210C625E00BCBB27 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18C6772E210C608A00BCBB27 /* BinaryIntegerExtension.swift */,
+				18C67736210C627800BCBB27 /* StringExtension.swift */,
+				18C67741210C95BA00BCBB27 /* UIViewControllerExtension.swift */,
+				18C67745210CC2BE00BCBB27 /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18C6773E210C950900BCBB27 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18C6773F210C953200BCBB27 /* AppStoryboards.swift */,
+				18C6773C210C944200BCBB27 /* Utilities.swift */,
+				18C67743210C98FF00BCBB27 /* MapViewWithZoom.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		18C67749210CD8DA00BCBB27 /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				18C67747210CD8D400BCBB27 /* Locations+CoreDataProperties.swift */,
+			);
+			path = CoreDataModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C67705210C343400BCBB27 /* SolarCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C6771B210C343400BCBB27 /* Build configuration list for PBXNativeTarget "SolarCalculator" */;
+			buildPhases = (
+				18C67702210C343400BCBB27 /* Sources */,
+				18C67703210C343400BCBB27 /* Frameworks */,
+				18C67704210C343400BCBB27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarCalculator;
+			productName = SolarCalculator;
+			productReference = 18C67706210C343400BCBB27 /* SolarCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C676FE210C343400BCBB27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Aakash Srivastav";
+				TargetAttributes = {
+					18C67705210C343400BCBB27 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 18C67701210C343400BCBB27 /* Build configuration list for PBXProject "SolarCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C676FD210C343400BCBB27;
+			productRefGroup = 18C67707210C343400BCBB27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C67705210C343400BCBB27 /* SolarCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C67704210C343400BCBB27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C67717210C343400BCBB27 /* LaunchScreen.storyboard in Resources */,
+				18C67731210C622700BCBB27 /* Localizable.strings in Resources */,
+				18C67714210C343400BCBB27 /* Assets.xcassets in Resources */,
+				18C6770F210C343400BCBB27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C67702210C343400BCBB27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C67748210CD8D400BCBB27 /* Locations+CoreDataProperties.swift in Sources */,
+				18C67744210C98FF00BCBB27 /* MapViewWithZoom.swift in Sources */,
+				18C6770C210C343400BCBB27 /* SolarCalculatorVC.swift in Sources */,
+				18C6773D210C944200BCBB27 /* Utilities.swift in Sources */,
+				18C67739210C6BBC00BCBB27 /* ChooseDateVC.swift in Sources */,
+				18C67734210C625500BCBB27 /* StringConstants.swift in Sources */,
+				18C67742210C95BA00BCBB27 /* UIViewControllerExtension.swift in Sources */,
+				18C67724210C407F00BCBB27 /* BaseVC.swift in Sources */,
+				18C67740210C953200BCBB27 /* AppStoryboards.swift in Sources */,
+				18C67729210C525800BCBB27 /* GooglePlacesSearchController.swift in Sources */,
+				18C6772B210C536500BCBB27 /* BookmarkedPlacesTVC.swift in Sources */,
+				18C6770A210C343400BCBB27 /* AppDelegate.swift in Sources */,
+				18C6772F210C608A00BCBB27 /* BinaryIntegerExtension.swift in Sources */,
+				18C67712210C343400BCBB27 /* SolarCalculator.xcdatamodeld in Sources */,
+				18C67746210CC2BE00BCBB27 /* DateExtension.swift in Sources */,
+				18C67737210C627800BCBB27 /* StringExtension.swift in Sources */,
+				18C67722210C405D00BCBB27 /* SunCalc.swift in Sources */,
+				18C67721210C405D00BCBB27 /* Extensions.swift in Sources */,
+				18C6772D210C58F500BCBB27 /* APIKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C6770D210C343400BCBB27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C6770E210C343400BCBB27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C67715210C343400BCBB27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C67716210C343400BCBB27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C67719210C343400BCBB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C6771A210C343400BCBB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C6771C210C343400BCBB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9YG767UPHC;
+				INFOPLIST_FILE = SolarCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.budfie.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Budfie_Development;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C6771D210C343400BCBB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9YG767UPHC;
+				INFOPLIST_FILE = SolarCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.budfie.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Budfie_Development;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C67701210C343400BCBB27 /* Build configuration list for PBXProject "SolarCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C67719210C343400BCBB27 /* Debug */,
+				18C6771A210C343400BCBB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C6771B210C343400BCBB27 /* Build configuration list for PBXNativeTarget "SolarCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C6771C210C343400BCBB27 /* Debug */,
+				18C6771D210C343400BCBB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18C67710210C343400BCBB27 /* SolarCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18C67711210C343400BCBB27 /* SolarCalculator.xcdatamodel */,
+			);
+			currentVersion = 18C67711210C343400BCBB27 /* SolarCalculator.xcdatamodel */;
+			path = SolarCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18C676FE210C343400BCBB27 /* Project object */;
+}

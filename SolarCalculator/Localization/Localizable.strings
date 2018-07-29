@@ -1,0 +1,18 @@
+//
+//  Localizable.strings
+//  SolarCalculator
+//
+//  Created by Aakash Srivastav on 28/07/18.
+//  Copyright © 2018 Aakash Srivastav. All rights reserved.
+//
+
+"K_APP_NAME" = "Solar Calculator";
+"K_LOCATION_SERVICE_RESTRICTED" = "Location services restricted.";
+"K_LOCATION_PERMISSION_DENIED" = "Please allow location permission.";
+"K_LOCATION_PERMISSION" = "Location Permission Required";
+"K_SETTINGS" = "Setiings";
+"K_OK" = "Ok";
+"K_BOOKMARKS" = "Bookmarks";
+
+"K_GOLDEN_HOUR_NOTIFICATION_TITLE" = "Golden Hour has started";
+"K_GOLDEN_HOUR_NOTIFICATION_BODY" = "Time to head for your balcony";
